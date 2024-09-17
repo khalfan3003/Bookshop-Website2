@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags for character set and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of the page -->
+    <title>Register Screen</title>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">  
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Linking CSS file for styling -->
+    <link rel="stylesheet" href="css/loginRegisterStyle.css">
+</head>
+
+<body>
+    <!-- Registration form -->
+    <div class="LoginScreen">
+        <form action="">
+           <!-- Title of the form -->
+           <h1>Register</h1> 
+           <!-- Input box for username -->
+           <div class="inputBox">
+            <input type="text" placeholder="Username" required id="registerName">
+           </div>
+           <!-- Input box for password -->
+           <div class="inputBox">
+            <input type="password" placeholder="Password" required id="registerPass">
+            <!-- Notification for incomplete details -->
+            <span id="noInfo">*Enter all details please</span>
+           </div>
+           <!-- Checkbox for remember me option -->
+           <div class="Remember">
+            <label><input type="checkbox"><strong>Remember me</strong></label>
+           </div>
+           <!-- Button to submit the registration form -->
+           <button type="submit" class="btn" id="register">Register</button>
+           <!-- Link to login page for existing users -->
+           <div class="registerLogin">
+            <p><strong>Existing User? <a href="HTML/login.html">Login Here</strong></a></p>
+           </div>
+        </form>
+    </div>
+    <!-- Script file for registration functionality -->
+    <script src="js/registerin.js"></script>
+</body>
+</html>

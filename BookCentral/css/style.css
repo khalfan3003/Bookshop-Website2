@@ -1,0 +1,105 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    background-image: url('../background/bookshelf.jpg'); /* Replace 'background.jpg' with your image file path */
+    background-size: cover; /* Cover the entire background */
+    background-repeat: no-repeat; /* Do not repeat the background image */
+    background-attachment: fixed; /* Keep the background fixed while scrolling */
+}
+
+.container {
+    padding: 20px;
+    border-radius: 20px; /* Add border-radius to make the container curved */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    background-color: rgb(208, 193, 193); /* Semi-transparent white background */
+    margin: 20px;
+    animation: fadeInContainer 1.5s ease-out; /* Animation on container load */
+}
+
+@keyframes fadeInContainer {
+    0% {
+        transform: scale(0.6); /* Start small */
+        opacity: 0; /* Invisible */
+    }
+    100% {
+        transform: scale(1); /* Full size */
+        opacity: 1; /* Visible */
+    }
+}
+
+h1 {
+    font-size: 24px;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+th, td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+}
+
+tr:hover {
+    background-color: #f9f9f9;
+}
+
+.book {
+    background-color: white; /* Set the background color for each book */
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+    transition: background-color 0.05s ease;
+    position: relative;
+}
+
+.rank {
+    color: black; /* Black text */
+}
+
+.cover {
+    text-align: center;
+}
+
+.cover img {
+    width: 100px; /* Adjust the width of the book cover image */
+    height: auto; /* Preserve aspect ratio */
+}
+
+.description {
+    display: none;
+    position: absolute;
+    padding: 10px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+    width: 400px; /* Adjust the width as needed */
+    height: 200px; /* Allow the height to adjust based on content */
+    overflow-y: auto; /* Add vertical scroll if the content exceeds the maximum height */
+    background-color: white;;
+    top: -10px; /* Position the description over the book area */
+    left: 50%; /* Align the description horizontally with the book */
+    transform: translateX(-50%);
+    writing-mode: horizontal-tb;
+    transition: opacity 1s ease;
+}
+
+.book:hover .description,
+.description:hover {
+    display: block;
+}
+
+
+
+

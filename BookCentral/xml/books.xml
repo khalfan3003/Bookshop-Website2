@@ -1,0 +1,263 @@
+<?xml version="1.0"?>
+<!DOCTYPE books SYSTEM "../dtd/books.dtd"> <!--Linking the xml to the dtd-->
+<?xml-stylesheet type="text/xsl" href="../xslt/ranking.xsl"?> <!--Linking the xml to the xslt-->
+
+<books xmlns="http://example.com/books">
+    <book rank="1"> <!--Data for the book ranked 1st-->
+        <title>A Game of Thrones</title>
+        <author>George R.R. Martin</author>
+        <rating>4.5</rating>
+        <num_ratings>1000000</num_ratings>
+        <cover>../bookCovers/a_game_of_thrones.jpg</cover>
+        <genre>Fantasy</genre>
+        <page_count>694 pages</page_count>
+        <price>$11.71</price>
+        <description>Winter is coming. Such is the stern motto of House Stark, the northernmost of the fiefdoms that owe allegiance to King Robert Baratheon in far-off King’s Landing. There Eddard Stark of Winterfell rules in Robert’s name. There his family dwells in peace and comfort: his proud wife, Catelyn; his sons Robb, Brandon, and Rickon; his daughters Sansa and Arya; and his bastard son, Jon Snow. Far to the north, behind the towering Wall, lie savage Wildings and worse—unnatural things relegated to myth during the centuries-long summer, but proving all too real and all too deadly in the turning of the season.</description>
+    </book>
+    
+    <book rank="2">
+        <title>The Fellowship of the Ring</title>
+        <author>J.R. Tolkien</author>
+        <rating>4.7</rating>
+        <num_ratings>950000</num_ratings>
+        <cover>../bookCovers/fellowship_ring.jpg</cover>
+        <genre>Fantasy</genre>
+        <page_count>423 pages</page_count>
+        <price>$19.47</price>
+        <description>Sauron, the Dark Lord, has gathered to him all the Rings of Power – the means by which he intends to rule Middle-earth. All he lacks in his plans for dominion is the One Ring – the ring that rules them all – which has fallen into the hands of the hobbit, Bilbo Baggins. In a sleepy village in the Shire, young Frodo Baggins finds himself faced with an immense task, as his elderly cousin Bilbo entrusts the Ring to his care. Frodo must leave his home and make a perilous journey across Middle-earth to the Cracks of Doom, there to destroy the Ring and foil the Dark Lord in his evil purpose.</description>
+    </book>
+
+    
+        <book rank="3">
+        <title>The Da Vinci Code</title>
+        <author>Dan Brown</author>
+        <rating>4.6</rating>
+        <num_ratings>2000000</num_ratings>
+        <cover>../bookCovers/da_vinci_code.jpg</cover>
+        <genre>Thriller</genre>
+        <page_count>689 pages</page_count>
+        <price>$9.99</price>
+        <description>Harvard symbologist Robert Langdon is thrust into a perilous quest to unravel a centuries-old mystery surrounding the death of a curator at the Louvre. With the help of cryptologist Sophie Neveu, Langdon follows a trail of clues that lead to dark secrets hidden within the works of Leonardo da Vinci.</description>
+
+    </book>
+
+        <book rank="4">
+        <title>Harry Potter and the Sorcerer's Stone</title>
+        <author>J.K. Rowling</author>
+        <rating>4.8</rating>
+        <num_ratings>2000000</num_ratings>
+        <cover>../bookCovers/harry_potter.jpg</cover>
+        <genre>Fantasy</genre>
+        <page_count>320 pages</page_count>
+        <price>$7.99</price>
+        <description>Harry Potter has never even heard of Hogwarts when the letters start dropping on the doormat at number four, Privet Drive. Addressed in green ink on yellowish parchment with a purple seal, they are swiftly confiscated by his grisly aunt and uncle. Then, on Harry's eleventh birthday, a great beetle-eyed giant of a man called Rubeus Hagrid bursts in with some astonishing news: Harry Potter is a wizard, and he has a place at Hogwarts School of Witchcraft and Wizardry. An incredible adventure is about to begin!</description>
+    </book>
+    
+    <book rank="5">
+        <title>Mistborn: The Final Empire</title>
+        <author>Brandon Sanderson</author>
+        <rating>4.6</rating>
+        <num_ratings>1500000</num_ratings>
+        <cover>../bookCovers/mistborn.jpg</cover>
+        <genre>Fantasy</genre>
+        <page_count>672 pages</page_count>
+        <price>$8.99</price>
+        <description>For a thousand years the ash fell and no flowers bloomed. For a thousand years the Skaa slaved in misery and lived in fear. For a thousand years the Lord Ruler, the 'Sliver of Infinity,' reigned with absolute power and ultimate terror, divinely invincible. Then, when hope was so long lost that not even its memory remained, a terribly scarred, heart-broken half-Skaa rediscovered it in the depths of the Lord Ruler's most hellish prison. Kelsier 'snapped' and found in himself the powers of a Mistborn. A brilliant thief and natural leader, he turned his talents to the ultimate caper, with the Lord Ruler himself as the mark.</description>
+    </book>
+    
+    <book rank="6">
+        <title>The Lightning Thief</title>
+        <author>Rick Riordan</author>
+        <rating>4.5</rating>
+        <num_ratings>1200000</num_ratings>
+        <cover>../bookCovers/lightning_thief.jpg</cover>
+        <genre>Science Fiction</genre>
+        <page_count>377 pages</page_count>
+        <price>$7.20</price>
+        <description>Twelve-year-old Percy Jackson is on the most dangerous quest of his life. With the help of a satyr and a daughter of Athena, Percy must journey across the United States to catch a thief who has stolen the original weapon of mass destruction — Zeus’ master bolt. Along the way, he must face a host of mythological enemies determined to stop him. Most of all, he must come to terms with a father he has never known, and an Oracle that has warned him of betrayal by a friend.</description>
+    </book>
+    
+    
+    
+        <book rank="7">
+        <title>The Girl with the Dragon Tattoo</title>
+        <author>Stieg Larsson</author>
+        <rating>4.4</rating>
+        <num_ratings>900000</num_ratings>
+        <cover>../bookCovers/girl_dragon_tattoo.jpg</cover>
+        <genre>Crime Fiction</genre>
+        <page_count>590 pages</page_count>
+        <price>$9.99</price>
+        <description>In this gripping thriller, journalist Mikael Blomkvist and hacker Lisbeth Salander join forces to solve the disappearance of a wealthy industrialist's niece. As they dig deeper, they uncover dark secrets that lead to shocking revelations.</description>
+    </book>
+    
+    <book rank="8">
+        <title>Dune</title>
+        <author>Frank Herbert</author>
+        <rating>4.7</rating>
+        <num_ratings>1800000</num_ratings>
+        <cover>../bookCovers/dune.jpg</cover>
+        <genre>Science Fiction</genre>
+        <page_count>896 pages</page_count>
+        <price>$10.99</price>
+        <description>Set on the desert planet Arrakis, Dune is the story of Paul Atreides—who would become known as Muad'Dib—and of a great family's ambition to bring to fruition mankind's most ancient and unattainable dream.</description>
+    </book>
+    
+    <book rank="9">
+        <title>1984</title>
+        <author>George Orwell</author>
+        <rating>4.6</rating>
+        <num_ratings>2200000</num_ratings>
+        <cover>../bookCovers/1984.jpg</cover>
+        <genre>Dystopian Fiction</genre>
+        <page_count>328 pages</page_count>
+        <price>$6.99</price>
+        <description>Winston Smith works for the Ministry of Truth in London, chief city of Airstrip One. Big Brother stares out from every poster, the Thought Police uncover every act of betrayal. When Winston finds love with Julia, he discovers that life does not have to be dull and deadening, and awakens to new possibilities. Despite the police helicopters that hover and circle overhead, Winston and Julia begin to question the Party; they are drawn towards conspiracy. Yet Big Brother will not tolerate dissent - even in the mind. For those with original thoughts they invented Room 101.</description>
+    </book>
+    
+    <book rank="10">
+        <title>2001: A Space Odyssey</title>
+        <author>Arthur C. Clarke</author>
+        <rating>4.8</rating>
+        <num_ratings>1700000</num_ratings>
+        <cover>../bookCovers/2001.jpg</cover>
+        <genre>Science Fiction</genre>
+        <page_count>256 pages</page_count>
+        <price>$13.50</price>
+        <description>From the savannas of Africa at the dawn of mankind to the rings of Saturn as man ventures to the outer rim of our solar system, 2001: A Space Odyssey is a journey unlike any other.</description>
+    </book>
+
+        <book rank="11">
+        <title>Rebecca</title>
+        <author>Daphne du Maurier</author>
+        <rating>4.5</rating>
+        <num_ratings>750000</num_ratings>
+        <cover>../bookCovers/rebecca.jpg</cover>
+        <genre>Gothic Fiction</genre>
+        <page_count>448 pages</page_count>
+        <price>$15.70</price>
+        <description>Rebecca is a 1938 Gothic novel written by English author Daphne du Maurier. The novel depicts an unnamed young woman who impetuously marries a wealthy widower, before discovering that both he and his household are haunted by the memory of his late first wife, Rebecca.</description>
+    </book>
+    
+    <book rank="12">
+        <title>The Maltese Falcon</title>
+        <author>Dashiell Hammett</author>
+        <rating>4.3</rating>
+        <num_ratings>620000</num_ratings>
+        <cover>../bookCovers/maltese_falcon.jpg</cover>
+        <genre>Hardboiled Detective Fiction</genre>
+        <page_count>217 pages</page_count>
+        <price>$12.99</price>
+        <description>The Maltese Falcon is a classic detective novel featuring private investigator Sam Spade. Spade becomes embroiled in a complex web of deception and murder as he searches for a priceless statuette, the Maltese Falcon, in 1920s San Francisco.</description>
+    </book>
+    
+    <book rank="13">
+        <title>Gone Girl</title>
+        <author>Gillian Flynn</author>
+        <rating>4.2</rating>
+        <num_ratings>900000</num_ratings>
+        <cover>../bookCovers/gone_girl.jpg</cover>
+        <genre>Psychological Thriller</genre>
+        <page_count>419 pages</page_count>
+        <price>$14.95</price>
+        <description>On their fifth wedding anniversary, Amy Dunne disappears, leaving behind a series of clues that incriminate her husband, Nick. As the media frenzy escalates, Nick's innocence comes into question, and the true nature of their marriage is revealed.</description>
+    </book>
+    
+    <book rank="14">
+        <title>The Hound of the Baskervilles</title>
+        <author>Sir Arthur Conan Doyle</author>
+        <rating>4.6</rating>
+        <num_ratings>1000000</num_ratings>
+        <cover>../bookCovers/hound_baskervilles.jpg</cover>
+        <genre>Crime Fiction</genre>
+        <page_count>190 pages</page_count>
+        <price>$8.99</price>
+        <description>Sherlock Holmes and Dr. Watson are called to investigate the mysterious death of Sir Charles Baskerville, whose demise is rumored to be the result of a curse haunting the Baskerville family. As they delve into the case, they encounter supernatural elements and sinister characters.</description>
+    </book>
+    
+    <book rank="15">
+        <title>In the Woods</title>
+        <author>Tana French</author>
+        <rating>4.4</rating>
+        <num_ratings>800000</num_ratings>
+        <cover>../bookCovers/in_woods.jpg</cover>
+        <genre>Crime Fiction</genre>
+        <page_count>429 pages</page_count>
+        <price>$13.50</price>
+        <description>Detective Rob Ryan investigates the murder of a young girl in the same woods where he experienced a traumatic event as a child. As he delves into the case, he grapples with his own past and uncovers shocking truths about the community he thought he knew.</description>
+    </book>
+
+        <book rank="16">
+        <title>Big Little Lies</title>
+        <author>Liane Moriarty</author>
+        <rating>4.3</rating>
+        <num_ratings>950000</num_ratings>
+        <cover>../bookCovers/big_little_lies.jpg</cover>
+        <genre>Mystery, Thriller</genre>
+        <page_count>460 pages</page_count>
+        <price>$11.99</price>
+        <description>Set in a tranquil seaside town, Big Little Lies follows the lives of three women whose seemingly perfect lives unravel amid secrets, lies, and betrayal. When a murder occurs during a school trivia night, the truth about their relationships comes to light.</description>
+    </book>
+    
+    <book rank="17">
+        <title>The No. 1 Ladies' Detective Agency</title>
+        <author>Alexander McCall Smith</author>
+        <rating>4.2</rating>
+        <num_ratings>850000</num_ratings>
+        <cover>../bookCovers/ladies_detective_agency.jpg</cover>
+        <genre>Mystery</genre>
+        <page_count>235 pages</page_count>
+        <price>$10.50</price>
+        <description>Precious Ramotswe, Botswana's first female detective, solves mysteries with wit and wisdom in this charming series debut. From missing husbands to suspicious neighbors, Precious navigates the complexities of life and crime in her beloved homeland.</description>
+    </book>
+    
+    <book rank="18">
+        <title>The Secret History</title>
+        <author>Donna Tartt</author>
+        <rating>4.4</rating>
+        <num_ratings>900000</num_ratings>
+        <cover>../bookCovers/secret_history.jpg</cover>
+        <genre>Psychological Thriller</genre>
+        <page_count>559 pages</page_count>
+        <price>$16.99</price>
+        <description>When a group of elite college students commits a murder, they grapple with the consequences of their actions and the dark secrets that bind them together. Told through the eyes of their enigmatic classmate, Richard Papen, The Secret History is a haunting exploration of guilt, obsession, and the allure of power.</description>
+    </book>
+    
+    <book rank="19">
+        <title>Murder on the Orient Express</title>
+        <author>Agatha Christie</author>
+        <rating>4.5</rating>
+        <num_ratings>1100000</num_ratings>
+        <cover>../bookCovers/murder_orient_express.jpg</cover>
+        <genre>Mystery, Crime Fiction</genre>
+        <page_count>274 pages</page_count>
+        <price>$7.99</price>
+        <description>Renowned detective Hercule Poirot is aboard the luxurious Orient Express when a wealthy American passenger is found murdered. With a train full of suspects and an alibi for each one, Poirot must use his unparalleled deductive skills to solve the perplexing case.</description>
+    </book>
+    
+    <book rank="20">
+        <title>The Cuckoo's Calling</title>
+        <author>Robert Galbraith</author>
+        <rating>4.2</rating>
+        <num_ratings>800000</num_ratings>
+        <cover>../bookCovers/cuckoos_calling.jpg</cover>
+        <genre>Crime Fiction, Mystery</genre>
+        <page_count>455 pages</page_count>
+        <price>$14.75</price>
+        <description>Private investigator Cormoran Strike is hired to investigate the supposed suicide of supermodel Lula Landry. As he delves into the glamorous and treacherous world of high fashion, Strike uncovers a web of lies, betrayal, and hidden motives.</description>
+    </book>
+
+    <book rank="21">
+        <title>Dark Places</title>
+        <author>Gillian Flynn</author>
+        <rating>4.2</rating>
+        <num_ratings>1000000</num_ratings>
+        <cover>../bookCovers/dark_places.jpg</cover>
+        <genre>Mystery</genre>
+        <page_count>349 pages</page_count>
+        <price>$12.99</price>
+        <description>Libby Day was just seven years old when her mother and two sisters were brutally murdered in their rural Kansas home. Twenty-five years later, Libby, who survived the massacre, is forced to confront her traumatic past as she investigates what really happened that fateful night.</description>
+
+    </book>
+
+</books>

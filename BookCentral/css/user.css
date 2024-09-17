@@ -1,0 +1,509 @@
+/* Body styling */
+body {
+    /* Minimum height to cover viewport */
+    min-height: 100vh;
+    /* Ensure content fits within viewport */
+    max-width: 100%;
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Background color */
+    background-color: #F3E3AC;
+}
+
+/* Header styling */
+header {
+    /* Flexbox setup for row layout */
+    display: flex;
+    flex-direction: row;
+    /* Full width */
+    width: 100%;
+    /* Fixed positioning */
+    position: sticky;
+    top: 0;
+    /* Margin adjustment */
+    margin-top: 0.5vh;
+    margin-bottom: 5vh;
+    /* Background setup */
+    background: none;
+    /* Z-index to keep it above other elements */
+    z-index: 9999;
+}
+
+/* Top basket styling */
+.top_basket {
+    /* Margin adjustment */
+    margin-top: 0.1vh;
+    /* Flexbox setup for row layout */
+    display: flex;
+    flex-direction: row;
+    /* Right-aligned */
+    justify-content: flex-end;
+    /* Transparent background */
+    background-color: transparent;
+    /* Fixed height */
+    height: 5vh;
+    /* Width adjustment */
+    width: 95%;
+    /* Fixed positioning */
+    position: sticky;
+    /* Center alignment */
+    align-self: center;
+    /* Left alignment */
+    left: 0;
+    /* Z-index to keep it above other elements */
+    z-index: 9999;
+}
+
+/* Genre basket holder styling */
+.genre_top_basket_holder {
+    /* Flexbox setup for row layout */
+    display: flex;
+    flex-direction: row;
+    /* Spacing between items */
+    justify-content: space-around;
+    align-items: center;
+    /* Fixed width */
+    width: 10%;
+    /* Background color */
+    background-color: #C1908693;
+    /* Blur effect */
+    backdrop-filter: blur(2px);
+    /* Full height */
+    height: 100%;
+    /* Right margin adjustment */
+    margin-right: 2%;
+    /* Rounded corners */
+    border-radius: 10px;
+}
+
+/* Small logo styling */
+#small_logo {
+    /* Width adjustment */
+    width: 3%;
+    /* Left margin adjustment */
+    margin-left: 0.5%;
+}
+
+#small_logo:hover{
+    cursor: pointer;
+}
+
+/* Genre button and icon hover effect */
+#genre_top_bag_btn, #genre_user_btn {
+    /* Bottom border and color change */
+    border-bottom: 1px solid white;
+    color: #df7f7e;
+    /* Cursor pointer */
+    cursor: pointer;
+}
+
+/* Genre button and icon styling */
+#genre_top_bag_btn, #genre_user_btn {
+    /* Remove default styles */
+    border: none;
+    background-color: transparent;
+}
+
+/* Genre text and icon styling */
+#genre_shopping_bag, #genre_user {
+    /* Font size */
+    font-size: 24px;
+    /* Font color */
+    color: white;
+}
+
+/* Welcome section styling */
+.welcome {
+    /* Background image setup */
+    background: url("../background/background_img.jpg") center/ cover;
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Center alignment */
+    align-items: center;
+    justify-content: flex-end;
+    /* Fixed height */
+    height: 50vh;
+    /* Width adjustment */
+    width: 95%;
+    /* Rounded corners */
+    border-radius: 2rem;
+    /* Margin adjustment */
+    margin-top: 0.5vh;
+    /* Padding */
+    padding: 1vh 1%;
+    /* Center alignment */
+    align-self: center;
+}
+
+/* Logout button styling */
+#logout {
+    /* Bottom margin adjustment */
+    margin-bottom: 2vh;
+    /* Right alignment */
+    align-self: self-end;
+    /* Font color */
+    color: white;
+}
+
+/* Logout button hover effect */
+#logout:hover {
+    /* Font size increase */
+    font-size: 28px;
+    /* Color change to red */
+    color: red;
+    /* Cursor pointer */
+    cursor: pointer;
+}
+
+/* Profile section styling */
+.profile {
+    /* Full width */
+    width: 100%;
+    /* Flexbox setup for row layout */
+    display: flex;
+    flex-direction: row;
+    /* Center alignment */
+    justify-content: center;
+    align-items: baseline;
+}
+
+/* Profile image styling */
+#profileImage {
+    /* Fixed width and height */
+    width: 12rem;
+    height: 12rem;
+    /* Rounded shape */
+    border-radius: 50%;
+    /* Cursor pointer */
+    cursor: pointer;
+}
+
+/* Change photo link styling */
+#changePhoto {
+    /* Font color */
+    color: white;
+}
+
+/* Change photo link hover effect */
+#changePhoto:hover {
+    /* Font size increase */
+    font-size: 26px;
+    /* Cursor pointer */
+    cursor: pointer;
+}
+
+/* Photo changer styling */
+#photochanger {
+    /* Hide by default */
+    display: none;
+    /* Font color */
+    color: white;
+}
+
+/* Greeting message styling */
+#greeting {
+    /* Top margin adjustment */
+    margin-top: 5vh;
+    /* Bottom margin adjustment */
+    margin-bottom: 2vh;
+    /* Font color */
+    color: white;
+    /* Font family */
+    font-family: Lora;
+    /* Font size */
+    font-size: 36px;
+    /* Font weight */
+    font-weight: 500;
+}
+
+/* Choose category section styling */
+.chooseCatergory {
+    /* Flexbox setup for row layout */
+    display: flex;
+    flex-direction: row;
+    /* Spacing around items */
+    justify-content: space-around;
+    /* Padding */
+    padding: 2vh 5%;
+    /* Bottom margin adjustment */
+    margin-bottom: 3vh;
+}
+
+/* My Favorites button styling */
+#myFavorites {
+    /* Width adjustment */
+    width: 50%;
+    /* Font family */
+    font-family: Lora;
+    /* Font size */
+    font-size: 28px;
+    /* Font color */
+    color: black;
+    /* Bottom border setup */
+    border-bottom: 3px solid gray;
+    /* Cursor pointer */
+    cursor: pointer;
+    /* Text alignment */
+    text-align: center;
+}
+
+/* Inactive My Favorites button styling */
+#myFavoritesInActive {
+    /* Same styles as active, with reduced font size */
+    width: 50%;
+    font-family: Lora;
+    font-size: 24px;
+    color: dimgray;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Inactive My Favorites button hover effect */
+#myFavoritesInActive:hover {
+    /* Same styles as active hover */
+    width: 50%;
+    font-family: Lora;
+    font-size: 26px;
+    color: dimgray;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Inactive Purchased button styling */
+#purchasedInActive {
+    /* Same styles as inactive My Favorites button */
+    width: 50%;
+    font-family: Lora;
+    font-size: 24px;
+    color: dimgray;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Inactive Purchased button hover effect */
+#purchasedInActive:hover {
+    /* Same styles as active hover */
+    width: 50%;
+    font-family: Lora;
+    font-size: 26px;
+    color: dimgray;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Purchased button styling */
+#purchased {
+    /* Same styles as active My Favorites button */
+    width: 50%;
+    font-family: Lora;
+    font-size: 28px;
+    color: black;
+    border-bottom: 3px solid gray;
+    cursor: pointer;
+    text-align: center;
+}
+
+/* Favorite content section styling */
+.favoriteContent {
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Left margin adjustment */
+    margin-left: 2%;
+    /* Align items to start */
+    align-items: start;
+}
+
+/* Favorite book container styling */
+.favoriteBook {
+    /* Hide by default */
+    display: none;
+    /* Flexbox setup for row layout */
+    flex-direction: row;
+    /* Fixed height */
+    height: 10vh;
+    /* Background color */
+    background-color: #F3EA608F;
+    /* Dotted border */
+    border: 1px dotted black;
+    /* Padding */
+    padding: 1vh 2%;
+    /* Width adjustment */
+    width: 55%;
+    /* Spacing between items */
+    justify-content: space-between;
+    /* Rounded corners */
+    border-radius: 1rem;
+    /* Bottom margin adjustment */
+    margin-bottom: 3vh;
+}
+
+/* Book image styling */
+#bookImage {
+    /* Fixed width and height */
+    width: 10%;
+    height: 9vh;
+    /* Ensure image fits properly */
+    object-fit: contain;
+    /* Align to center */
+    align-self: center;
+}
+
+/* Little details section styling */
+.littleDetails {
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Spacing between items */
+    justify-content: space-around;
+    /* Padding */
+    padding: 0 2%;
+    /* Center alignment */
+    align-items: center;
+}
+
+/* Book name styling */
+#bookName {
+    /* Font family */
+    font-family: lora;
+    /* Font size */
+    font-size: 22px;
+    /* Font color */
+    color: black;
+}
+
+/* Book author styling */
+#bookAuthor {
+    /* Font family */
+    font-family: lora;
+    /* Font size */
+    font-size: 18px;
+    /* Font color */
+    color: black;
+}
+
+/* Check favorite icon styling */
+#checkFavorite {
+    /* Align to center */
+    align-self: center;
+    /* Font color */
+    color: red;
+}
+
+/* Check favorite icon hover effect */
+#checkFavorite:hover {
+    /* Font size increase */
+    font-size: 32px;
+    /* Cursor pointer */
+    cursor: pointer;
+}
+
+/* Purchased content section styling */
+.purchasedContent {
+    /* Hide by default */
+    display: none;
+    /* Flexbox setup for column layout */
+    flex-direction: column;
+    /* Align items to end */
+    align-items: end;
+    /* Right margin adjustment */
+    margin-right: 2%;
+}
+
+/* Purchased book container styling */
+.purchasedBook {
+    /* Hide by default */
+    display: none;
+    /* Flexbox setup for row layout */
+    flex-direction: row;
+    /* Align items to center */
+    align-items: center;
+    /* Background color */
+    background-color: whitesmoke;
+    /* Dotted border */
+    border: 1px dotted black;
+    /* Fixed height */
+    height: 10vh;
+    /* Padding */
+    padding: 1vh 2%;
+    /* Width adjustment */
+    width: 55%;
+    /* Spacing between items */
+    justify-content: space-between;
+    /* Rounded corners */
+    border-radius: 1rem;
+    /* Bottom margin adjustment */
+    margin-bottom: 1vh;
+}
+
+/* Purchase information section styling */
+.purchaseInfo {
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Width adjustment */
+    width: 60%;
+    /* Spacing between items */
+    justify-content: space-between;
+}
+
+/* Date and time styling */
+#dateTime {
+    /* Font family */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font size */
+    font-size: 14px;
+    /* Font weight */
+    font-weight: bold;
+}
+
+/* Units section styling */
+.units {
+    /* Flexbox setup for column layout */
+    display: flex;
+    flex-direction: column;
+    /* Spacing between items */
+    justify-content: space-between;
+    /* Left border */
+    border-left: 1px solid black;
+    /* Padding */
+    padding: 0 2%;
+}
+
+/* Book title styling */
+#title {
+    /* Font family */
+    font-family: Lora;
+    /* Font size */
+    font-size: 20px;
+    /* Font weight */
+    font-weight: 500;
+    /* Italic style */
+    font-style: italic;
+    /* Top margin adjustment */
+    margin-top: 1vh;
+}
+
+/* Unit information styling */
+.unitInfo {
+    /* Font family */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font size */
+    font-size: 20px;
+    /* Font weight */
+    font-weight: 500;
+}
+
+/* Book price styling */
+#bookprice {
+    /* Font family */
+    font-family: Arial, Helvetica, sans-serif;
+    /* Font size */
+    font-size: 20px;
+    /* Font weight */
+    font-weight: 900;
+    /* Top margin adjustment */
+    margin-top: 1vh;
+}

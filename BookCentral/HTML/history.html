@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Title of the webpage -->
+    <title>History</title>
+    <!-- specifying character encoding for the webpage -->
+    <meta charset="UTF-8">
+    <!-- linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- linking CSS files -->
+    <link rel="stylesheet" type="text/css" href="../css/genre.css">
+    <link rel="stylesheet" type="text/css" href="../css/main.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Small logo -->
+        <img src="../logos/asset1.png" id="small_logo">
+        <!-- Top basket -->
+        <div class="top_basket">
+            <div class="genre_top_basket_holder">
+                <!-- Buttons for shopping bag and user account -->
+                <button id="genre_top_bag_btn"><span class="material-icons-outlined" id="genre_shopping_bag">shopping_bag</span></button>
+                <button id="genre_user_btn"><span class="material-icons-outlined" id="genre_user">account_circle</span></button>
+            </div>
+        </div>
+    </header>
+
+    <div class="main">
+        <!-- Book box section -->
+        <div class="book_box">
+            <div class="book">
+                <div class="book_cover">
+                    <!-- Image of the book cover -->
+                    <img src="../bookCovers/theSilentPatient.jpg" id="cover">
+                </div>
+                <div class="about">
+                    <!-- Author name and page count of the book -->
+                    <span id="author">Alex Michaelides</span>
+                    <span id="page_count">368 pages</span>
+                </div>
+            </div>
+
+            <div class="details">
+                <!-- Details of the book -->
+                <div class="details_head">
+                    <!-- Title and price of the book -->
+                    <h3 id="title">The Silent Patient</h3>
+                    <h3 id="price">$14.35</h3>
+                </div>
+                <!-- Summary of the book -->
+                <div class="summary">
+                    <p id="short_summary">The Silent Patient is a 2019 psychological thriller novel written by British–Cypriot author Alex Michaelides. The successful debut novel was published by Celadon Books, a division of Macmillan Publishers, on 5 February 2019. The audiobook version, released on the same date, is read by Louise Brealey and Jack Hawkins. The story is narrated by an English psychotherapist, Theo Faber, dealing with a patient who turns mute after murdering her husband. Upon its release, the book debuted on The New York Times Best Seller list at No.1. It later won the Goodreads Choice Award 2019 in the Mystery and Thriller category.</p>
+                </div>
+                <!-- Options for the book like love, share, and add to bag -->
+                <div class="options">
+                    <button class="love_btn"><span class="material-icons-outlined" id="favorite">favorite</span></button>
+                    <button class="share_btn"><span class="material-icons-outlined" id="share">share</span></button>
+                    <button class="bag_btn"><span class="material-icons-outlined" id="bag">shopping_bag</span></button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <!-- Contact information section in the footer-->
+        <h4>Contact Information</h4>
+        <div id='info'>
+            <div class="find">
+                <!-- Contact details -->
+                <div id="contact">
+                    <span class="material-icons-outlined" id="contact_icon">mail</span>
+                    <a href="mailto:BookCentral@gmail.com">BookCentral@gmail.com</a>
+                </div>
+
+                <div id="contact">
+                    <span class="material-icons-outlined" id="contact_icon">call</span>
+                    <span>+230 666 6666</span>
+                </div>
+
+                <div id="contact">
+                    <span class="material-icons-outlined" id="contact_icon">location_on</span>
+                    <a href="https://maps.app.goo.gl/M3ADnHEa1qBFjjFPA">Map</a>
+                </div>
+            </div>
+            <!-- Social media links -->
+            <div class="socials">
+                <div id="contact">
+                    <img src="../icons/facebook.svg" id="social_icons">
+                    <a href="https://www.facebook.com/MiddlesexUniversityMauritius/">Facebook</a>
+                </div>
+
+                <div id="contact">
+                    <img src="../icons/instagram.webp" id="social_icons">
+                    <a href="https://www.instagram.com/middlesexunimauritius/">Instagram</a>
+                </div>
+
+                <div id="contact">
+                    <img src="../icons/X.svg" id="social_icons">
+                    <a href="https://twitter.com/mdx_mtius?lang=en">X</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Script files -->
+    <script src="../js/history.js"></script>
+    <script src="../js/toCart.js"></script>
+</body>
+
+</html>

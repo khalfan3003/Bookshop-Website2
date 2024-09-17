@@ -1,0 +1,213 @@
+body {
+    display: flex;
+    flex-direction: column;
+	background: url("../background/bookshelf.jpg") center center/ cover;
+	box-shadow: 0 0 0 20;
+	max-width: 100%;
+    min-height: 100vh;
+}
+
+header {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    top: 0;
+    margin-top: 0.5vh;
+    margin-bottom:5vh ;
+    background: none;
+    position:sticky;
+    z-index: 9999;
+}
+
+.genre_top_basket_holder{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    width: 10%;
+    background-color: #C1908693;
+    backdrop-filter: blur(2px);
+    height: 100%;
+    margin-right: 2%;
+    border-radius: 10px;
+}
+
+#small_logo {
+    width: 3%;
+    margin-left: 0.5%;
+}
+
+#small_logo:hover{
+    cursor: pointer;
+}
+
+#genre_top_bag_btn, #genre_user_btn {
+	border: none;
+	background-color: transparent;
+}
+
+#genre_shopping_bag, #genre_user{
+	font-size: 24px;
+	color: white;
+}
+
+#genre_top_bag_btn:hover, #genre_user_btn:hover {
+	border-bottom: 1px solid white;
+	color: #df7f7e;
+    cursor: pointer;
+	
+}
+
+@keyframes bag_notify {
+    0% {font-size: 24px; color: white;}
+    50% {font-size: 44px; color: lightgreen;}
+    100% {font-size: 24px; color: white}
+}
+
+#bag_notify {
+    font-size: 24px;
+    color: white;
+    animation-name: bag_notify;
+    animation-duration: 1s;
+}
+
+#genre_name {
+   margin:0 auto;
+   font-size: 28px;
+   font-family: Playfair Display;
+   background-color: #808080;
+}
+
+.book_box {
+    display: none;
+    flex-direction: row;
+    background-color: #C1908693;
+    backdrop-filter: blur(10px);
+    border-radius: 1rem;
+    margin-bottom: 4vh; 
+}
+
+.book {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 25%;
+    align-items: center;
+    padding: 3vh;
+
+}
+
+.book_cover {
+    width: 50%;
+    height: 45vh;
+      
+}
+
+#cover {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    
+}
+
+
+
+.about {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#author {
+    margin-top: 1vh;
+    font-size: 24px;
+    font-family: Playfair Display;
+    font-weight: 700;
+    color: white;
+}
+
+
+#page_count {
+    margin-top: 1vh;
+    font-size: 20px;
+    font-family: Playfair Display;
+    font-weight: 400;
+    color: white;
+}
+
+
+.details {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 3vh 2%;
+    width: 60%;
+    
+}
+
+.details_head {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 2vh;
+}
+
+#title {
+    font-size: 24px;
+    font-family: Playfair display;
+    
+}
+
+#price {
+    font-size: 20px;
+    font-family: Lora;
+
+}
+.summary {
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3vh ;
+}
+
+#short_summary {
+    color: white;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family: Lora;
+}
+
+.options {
+    display: flex;
+    flex-direction: row;
+    width: 40%;
+    justify-content: space-around;
+    margin-left: auto;
+    margin-right: auto;
+    border-bottom: 1px solid white;
+    border-radius:1rem;
+    padding-bottom: 1rem;
+    margin-bottom: 3vh;
+}
+
+.love_btn, .share_btn, .bag_btn {
+
+    background-color: transparent;
+    border: none;
+
+}
+
+.material-icons-outlined {
+    font-size: 1.5em;
+    color: rgb(226, 223, 223);
+    transition: 500ms color;
+}
+
+.material-icons-outlined:hover {
+    font-size: 1.8em;
+    cursor: pointer;
+}
+
+
+
+
+

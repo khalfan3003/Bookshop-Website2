@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="../xslt/table2.xsl"?> <!-- Linking the xml to the xslt-->
+<table>
+    <!-- Monday -->
+    <value>
+        <day>Monday</day>
+        <time>9:00 - 17:00</time>
+    </value>
+    <!-- Tuesday -->
+    <value>
+        <day>Tuesday</day>
+        <time>9:00 - 17:00</time>
+    </value>
+    <!-- Wednesday -->
+    <value>
+        <day>Wednesday</day>
+        <time>9:00 - 17:00</time>
+    </value>
+    <!-- Thursday -->
+    <value>
+        <day>Thursday</day>
+        <time>9:00 - 14:00</time>
+    </value>
+    <!-- Friday -->
+    <value>
+        <day>Friday</day>
+        <time>9:00 - 17:00</time>
+    </value>
+    <!-- Saturday -->
+    <value>
+        <day>Saturday</day>
+        <time>9:00 - 18:00</time>
+    </value>
+    <!-- Sunday -->
+    <value>
+        <day>Sunday</day>
+        <time>Closed</time>
+    </value>
+    <!-- Public Holidays -->
+    <value>
+        <day>Public Holidays</day>
+        <time>Closed</time>
+    </value>
+</table>

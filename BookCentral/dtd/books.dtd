@@ -1,0 +1,31 @@
+<!-- Define the structure of the 'books' element, which contains one or more 'book' elements -->
+<!ELEMENT books (book+)>
+
+<!-- Define the namespace declaration for the 'books' element -->
+<!ATTLIST books xmlns:bk CDATA #FIXED "http://example.com/books">
+
+<!-- Define the structure of the 'book' element, which contains various child elements -->
+<!ELEMENT book (title, author, rating, num_ratings, cover, genre, page_count, price, short_summary)>
+<!-- Define an attribute 'rank' for the 'book' element -->
+<!ATTLIST book rank CDATA #REQUIRED>
+
+<!-- Define the structure of the 'title' element -->
+<!ELEMENT title (#PCDATA)>
+<!-- Define the structure of the 'author' element -->
+<!ELEMENT author (#PCDATA)>
+<!-- Define the structure of the 'rating' element -->
+<!ELEMENT rating (#PCDATA)>
+<!-- Define the structure of the 'num_ratings' element -->
+<!ELEMENT num_ratings (#PCDATA)>
+<!-- Define the structure of the 'cover' element -->
+<!ELEMENT cover EMPTY>
+<!-- Define the structure of the 'genre' element -->
+<!ELEMENT genre (#PCDATA)>
+<!-- Define the structure of the 'page_count' element -->
+<!ELEMENT page_count (#PCDATA)>
+<!-- Define the structure of the 'price' element -->
+<!ELEMENT price (#PCDATA)>
+<!-- Define the structure of the 'short_summary' element -->
+<!ELEMENT short_summary (#PCDATA)>
+
+

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <!-- Meta tags for character encoding and viewport -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Title of the webpage -->
+    <title>Login Screen</title>
+    <!-- Linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <!-- Linking CSS file for styling -->
+    <link rel="stylesheet" href="../css/loginRegisterStyle.css">
+</head>
+
+<body>
+    <!-- Login form -->
+    <div class="LoginScreen">
+        <form action="">
+            <!-- Title of the form -->
+            <h1>Login</h1>
+            <!-- Username input box -->
+            <div class="inputBox">
+                <input type="text" placeholder="Username" required id="loginName">
+            </div>
+            <!-- Password input box -->
+            <div class="inputBox">
+                <input type="password" placeholder="Password" required id="loginPass">
+                <!-- Span for displaying incorrect login information -->
+                <span id="noPass"> *Incorrect Info</span>
+            </div>
+            <!-- Remember me checkbox -->
+            <div class="Remember">
+                <label><input type="checkbox"><strong>Remember me</strong></label>
+            </div>
+            <!-- Login button -->
+            <button class="btn" id="login">Login</button>
+            <!-- Link for new users to register -->
+            <div class="registerLogin">
+                <p><strong>New User? <a href="../register.html">Register Here</a></strong></p>
+            </div>
+        </form>
+    </div>
+    <!-- Script file for login functionality -->
+    <script src="../js/login.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,347 @@
+/* Body styling */
+body {
+    /* Ensure minimum height covers viewport */
+    min-height: 100vh;
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    /* Background image */
+    background: url("../background/bookshelf.jpg") no-repeat center center/cover;
+}
+
+/* Header styling */
+.Head {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    /* Positioning */
+    top: 0;
+    /* Margin adjustment */
+    margin-top: 0.5vh;
+    margin-bottom:5vh ;
+    /* Transparent background */
+    background: none;
+    /* Sticky positioning */
+    position: sticky;
+    z-index: 9999;
+}
+
+/* Top basket styling */
+.top_basket {
+    /* Margin adjustment */
+    margin-top: 0.1vh;
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    /* Transparent background */
+    background-color: transparent;
+    /* Fixed height and width */
+    height: 5vh;
+    width: 95%;
+    /* Sticky positioning */
+    position: sticky;
+    align-self: center;
+    left: 0;
+    /* Ensure basket is above other content */
+    z-index: 9999;
+}
+
+/* Genre top basket holder styling */
+.genre_top_basket_holder {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    /* Fixed width */
+    width: 10%;
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(2px);
+    /* Fixed height */
+    height: 100%;
+    /* Margin adjustment */
+    margin-right: 2%;
+    /* Rounded corners */
+    border-radius: 10px;
+}
+
+/* Genre top basket button styling */
+#genre_top_bag_btn, #genre_user_btn {
+	border: none;
+	background-color: transparent;
+}
+
+/* Genre shopping bag and user styling */
+#genre_shopping_bag, #genre_user {
+	font-size: 24px;
+	color: white;
+}
+
+#tiny_logo:hover{
+    cursor: pointer;
+}
+
+/* Hover styling for genre top basket button */
+#genre_top_bag_btn:hover, #genre_user_btn:hover {
+	border-bottom: 1px solid white;
+	color: #df7f7e;
+    cursor: pointer;
+}
+
+/* Tiny logo styling */
+#tiny_logo {
+    /* Fixed width */
+    width: 3%;
+    /* Margin adjustment */
+    margin-left: 0.5%;
+}
+
+/* Main section styling */
+.main {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* Notification for no book styling */
+.no_book {
+    /* Hide by default */
+    display: none;
+}
+
+/* No book notification styling */
+#no_book_notification {
+    /* Display block */
+    display: block;
+    /* Full width */
+    width: 100%;
+    /* Font and font size */
+    font-family: Lora;
+    font-size: 28px;
+    /* Font color */
+    color: black;
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(2px);
+    /* Rounded corners */
+    border-radius: 2rem;
+    /* Margin adjustment */
+    margin-top: 3vh;
+    /* Padding */
+    padding: 2vh 3%;
+    /* Text alignment */
+    text-align: center;
+}
+
+/* Book sale section styling */
+.booksale {
+    /* Hide by default */
+    display: none;
+    /* Flexbox setup */
+    flex-direction: column;
+    /* Space between content */
+    justify-content: space-around;
+    /* Fixed height and width */
+    height: 30vh;
+    width: 60%;
+    /* Font color */
+    color: white;
+    /* Margin adjustment */
+    margin-top: 1vh;
+    margin-bottom: 5vh;
+}
+
+/* Book info styling */
+.bookinfo {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    /* Fixed height */
+    height: 70%;
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(10px);
+    /* Padding */
+    padding: 1vh 2%;
+    /* Rounded corners */
+    border-radius: 1rem;
+}
+
+/* Basic information section styling */
+.basicinfo {
+    /* Flexbox setup */
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    /* Fixed width */
+    width: 60%;
+    /* Text alignment */
+    text-align: center;
+    /* Margin adjustment */
+    margin: 0 auto;
+    /* Padding */
+    padding: 0 2%;
+}
+
+/* Option section styling */
+.option {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+/* Remove button hover styling */
+#remove:hover {
+    /* Font color change to red */
+    color: red;
+    /* Increase font size */
+    font-size: 28px;
+    /* Pointer cursor */
+    cursor: pointer;
+}
+
+/* Book name styling */
+#name {
+    /* Font and font size */
+    font-family: Playfair Display;
+    font-size: 32px;
+    /* Font weight */
+    font-weight: 700;
+}
+
+/* Author name styling */
+#author {
+    /* Font and font size */
+    font-family: lora;
+    font-size: 24px;
+    /* Font weight */
+    font-weight: 800;
+}
+
+/* Quantity information section styling */
+.quatityinfo {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    align-self: center;
+    /* Fixed width */
+    width: 50%;
+    /* Fixed height */
+    height: 20%;
+    /* Rounded corners */
+    border-radius: 1rem;
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(10px);
+    /* Margin adjustment */
+    margin-top: 1vh;
+}
+
+/* Quantity styling */
+#quantity {
+    /* Font and font size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    /* Font weight */
+    font-weight: 600;
+}
+
+/* Number styling */
+#number {
+    /* Fixed height */
+    height: 50%;
+    /* Text alignment */
+    text-align: center;
+    /* Border setup */
+    border: none;
+    border-top: 1px double white;
+    border-bottom: 1px double white;
+    /* Transparent background */
+    background-color: transparent;
+    /* Font size and weight */
+    font-size: 20px;
+    font-weight: 700;
+    /* Font color */
+    color: white;
+}
+
+/* Price styling */
+#price {
+    /* Font and font size */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    /* Font weight */
+    font-weight: 600;
+}
+
+/* Footer styling */
+.foot {
+    /* Flexbox setup */
+    display: flex;
+    flex-direction: row;
+    /* Positioning */
+    position: relative;
+    /* Space between content */
+    justify-content: space-around;
+    align-items: center;
+    /* Positioning */
+    bottom: 0;
+    /* Margin adjustment */
+    margin-bottom: 1vh;
+    margin-top: 10vh;
+}
+
+/* Proceed button styling */
+.proceed {
+    /* Fixed width and height */
+    width: 70%;
+    height: 8vh;
+    /* Rounded corners */
+    border-radius: 2vh;
+    /* Positioning */
+    position: relative;
+    /* Border setup */
+    border: none;
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(10px);
+    /* Font family and font size */
+    font-family: Lora;
+    font-size: 28px;
+    /* Font color */
+    color: white;
+}
+
+/* Total amount styling */
+.total {
+    /* Background color with transparency */
+    background-color: #C1908693;
+    backdrop-filter: blur(10px);
+    /* Rounded corners */
+    border-radius: 2vh;
+    /* Padding */
+    padding: 3vh 2%;
+    /* Font family, size, and weight */
+    font-family: lora;
+    font-size: 24px;
+    font-weight: 900;
+    /* Font color */
+    color: white;
+}
+
+/* Hover styling for proceed button */
+.proceed:hover {
+    /* Increase height */
+    height: 9vh;
+    /* Increase font size */
+    font-size: 32px;
+}

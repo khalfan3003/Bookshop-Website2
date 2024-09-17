@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- Title of the webpage -->
+    <title>Book Central</title>
+    <!-- specifying character encoding for the webpage -->
+    <meta charset="UTF-8">
+    <!-- specifying viewport for responsive design -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- linking Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined" rel="stylesheet">
+    <!-- linking the CSS file -->
+    <link rel="stylesheet" type="text/css" href="../css/user.css">
+</head>
+
+<body>
+    <!-- Header section -->
+    <header>
+        <!-- Small logo -->
+        <img src="../logos/asset1.png" id="small_logo">
+        <!-- Top basket -->
+        <div class="top_basket">
+            <div class="genre_top_basket_holder">
+                <!-- Buttons for shopping bag and user account -->
+                <button id="genre_top_bag_btn"><span class="material-icons-outlined" id="genre_shopping_bag">shopping_bag</span></button>
+                <button id="genre_user_btn"><span class="material-icons-outlined" id="genre_user">account_circle</span></button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Main content section -->
+    <div class="biggestBasket">
+        <!-- Welcome section -->
+        <div class="welcome">
+            <!-- Logout button -->
+            <span class="material-icons-outlined" id="logout">logout</span>
+            <!-- Profile section -->
+            <div class="profile">
+                <!-- Profile image -->
+                <img src="../background/bookshelf.jpg" alt="" id="profileImage">
+                <!-- Change photo button -->
+                <span class="material-icons-outlined" id="changePhoto">add_photo_alternate</span>
+                <!-- Input for changing profile photo -->
+                <input type="file" id="photochanger" accept="image/*">
+            </div>
+            <!-- Greeting message -->
+            <span id="greeting">Good evening Paul</span>
+        </div>
+
+        <!-- Category selection section -->
+        <div class="chooseCatergory">
+            <!-- Favorites category -->
+            <span id="myFavorites">Favourites</span>
+            <!-- Purchased category -->
+            <span id="purchasedInActive">Purchased</span>
+        </div>
+
+        <!-- Content for favorites and purchased items -->
+        <div class="favorpurch">
+            <!-- Favorite items content -->
+            <div class="favoriteContent">
+                <div class="favoriteBook">
+                    <!-- Favorite book image -->
+                    <img src="../bookCovers/sapiens.jpg" alt="" id="bookImage">
+                    <!-- Details of the favorite book -->
+                    <div class="littleDetails">
+                        <!-- Name of the favorite book -->
+                        <span id="bookName">Sapiens: A Brief History of Humankind</span>
+                        <!-- Author of the favorite book -->
+                        <span id="bookAuthor">Yuval Noah Harari</span>
+                    </div>
+                    <!-- Icon indicating the book is a favorite -->
+                    <span class="material-icons-outlined" id="checkFavorite">favorite</span>
+                </div>
+            </div>
+
+            <!-- Purchased items content -->
+            <div class="purchasedContent">
+                <div class="purchasedBook">
+                    <div class="purchaseInfo">
+                        <!-- Date and time of purchase -->
+                        <span id="dateTime">Sun 10 March 2024</span>
+                        <!-- Title of the purchased book -->
+                        <span id="title">Sapiens: A Brief History of Humankind</span>
+                    </div>
+                    <div class="units">
+                        <!-- Quantity purchased -->
+                        <div class="unitInfo">
+                            <label for="quantityBought" id="quantityinfo">Units:</label>
+                            <span id="quantityBought">1</span>
+                        </div>
+                        <!-- Price of the purchased book -->
+                        <span id="bookprice">$11.55</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Script files -->
+    <script src="../js/user.js"></script>
+    <script src="../js/toCart.js"></script>
+</body>
+</html>

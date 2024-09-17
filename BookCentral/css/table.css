@@ -1,0 +1,120 @@
+/* Reset default margin and padding */
+* {
+    margin: 0;
+    padding: 0;
+    /* Box model set to border-box */
+    box-sizing: border-box;
+    /* Default font family */
+    font-family: sans-serif;
+}
+
+/* Table styling */
+table,
+th,
+td {
+    /* Collapse borders */
+    border-collapse: collapse;
+    /* Padding for table cells */
+    padding: 12px;
+}
+
+/* Main table container styling */
+main.table {
+    /* Full width and height */
+    width: 100%;
+    height: 100%;
+    /* Background color with slight transparency */
+    background-color: #fff5;
+    /* Blur effect */
+    backdrop-filter: blur(5px);
+    /* Rounded corners */
+    border-radius: .8rem;
+    /* Ensure content doesn't overflow */
+    overflow: hidden;
+}
+
+/* Table header styling */
+.t_header {
+    /* Full width and 12% height */
+    width: 100%;
+    height: 12%;
+    /* Background color with slight transparency */
+    background-color: #fff6;
+    /* Padding */
+    padding: 0.85rem 4.4rem;
+}
+
+/* Customizing scrollbar */
+.t_header::-webkit-scrollbar {
+    width: 0.5rem;
+    height: .5rem;
+}
+
+/* Scrollbar thumb styling */
+.t_header::-webkit-scrollbar-thumb {
+    /* Rounded corners */
+    border-radius: .5rem;
+    /* Background color with slight transparency */
+    background-color: #0007;
+    /* Initially hidden */
+    visibility: hidden;
+}
+
+/* Show scrollbar thumb on hover */
+.t_header:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+/* Table body styling */
+.t_body {
+    /* 95% width and calculated height with respect to table header */
+    width: 95%;
+    height: calc(89% - .85rem);
+    /* Background color with slight transparency */
+    background-color: #fffa;
+    /* Margin adjustment */
+    margin: .4rem auto;
+    /* Rounded corners */
+    border-radius: .6rem;
+    /* Enable scrolling for overflow content */
+    overflow: auto;
+}
+
+/* Customizing scrollbar for table body */
+.t_body::-webkit-scrollbar {
+    width: 0.5rem;
+    height: .5rem;
+}
+
+/* Scrollbar thumb styling for table body */
+.t_body::-webkit-scrollbar-thumb {
+    border-radius: .5rem;
+    background-color: #0007;
+    visibility: hidden;
+}
+
+/* Show scrollbar thumb on hover for table body */
+.t_body:hover::-webkit-scrollbar-thumb {
+    visibility: visible;
+}
+
+/* Styling for the entire table */
+table {
+    width: 100%;
+}
+
+/* Styling for table header row */
+tr th {
+    /* Sticky positioning to top and left */
+    position: sticky;
+    top: 0;
+    left: 0;
+    /* Background color for table header */
+    background-color: #d5d1defe;
+}
+
+/* Styling for even rows */
+tr:nth-child(even) {
+    /* Background color for even rows */
+    background-color: #0001;
+}
