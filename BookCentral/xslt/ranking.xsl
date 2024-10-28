@@ -14,8 +14,9 @@
             </head>
 
             <body>
-                <div class="container">
+                <main class="container">
                     <h1>Top Books</h1>
+                    <section class="t_body">
                         <table>                 
                             <tr>
                              <th class="rank">Rank</th>
@@ -27,7 +28,8 @@
                                 <xsl:sort select="@rank" data-type="number"/>
                             </xsl:apply-templates>                     
                         </table>
-                </div>
+                    </section>
+                </main>
             </body>
         </html>
     </xsl:template>

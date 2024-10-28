@@ -166,10 +166,10 @@ h3 {
   margin-right: auto;
 }
 
-/* Animation for book covers in the trending section */
+/* Animation for book cover */
 @keyframes moving {
   0% {
-    left: 105%;  /*Starts in the left just outside the screen*/
+    left: 105%;
   }
   25% {
     left: 41%;
