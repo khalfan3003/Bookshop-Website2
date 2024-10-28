@@ -138,6 +138,6 @@ photoChanger.addEventListener("change",function(e){
 const logOut = document.querySelector("#logout");
 
 logOut.addEventListener("click",function(){
-    window.location.href = "../register.html";
+    window.location.href = "../index.html";
     
 })
