@@ -10,7 +10,7 @@
   body {
     display: flex;
     flex-direction: column;
-    background: url("../background/bookshelf.jpg") center center/ cover;
+    background: url("https://images.unsplash.com/photo-1517322479358-df90f951f87d?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D") center center/ cover;
     box-shadow: 0 0 0 20;
     max-width: 100%;
     min-height: 100vh;
@@ -21,7 +21,7 @@
 .LoginScreen {
     width: 420px;
     border: 2px solid rgba(255,255,255,.2);
-    backdrop-filter: blur(20px);
+    backdrop-filter: blur(50px);
     box-shadow: 0 0 10px rgba(0,0,0,.2);
     border-color: black;
     border-radius: 10px;
@@ -85,6 +85,8 @@
     font-weight: 600;
 }
 
+
+
 .LoginScreen .registerLogin {
     font-size: 14.5px;
     text-align: center;
@@ -139,4 +141,3 @@
     animation-iteration-count: 1;
     display:none;
 }
-
